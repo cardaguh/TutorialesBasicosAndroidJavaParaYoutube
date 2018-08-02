@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:gravity="center"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:text="Android Básico" />
+
+    <Button
+        android:id="@+id/buttonCicloVida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ciclo de Vida de un Activity" />
+
+    <Button
+        android:id="@+id/buttonClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click de botón" />
+
+    <Button
+        android:id="@+id/buttonEnvioDatos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enviar datos" />
+
+    <Button
+        android:id="@+id/buttonCamara"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cámara Android" />
+
+    <Button
+        android:id="@+id/buttonMusic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reproductor de mp3" />
+
+    <Button
+        android:id="@+id/buttonToast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Toast" />
+</LinearLayout>
